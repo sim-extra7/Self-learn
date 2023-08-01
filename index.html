@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-   
   <head>
     <meta charset="UTF-8">
     <meta name="Author"  content="Sim">
     <meta name="Description" content=" This page is where the page i learn all of the HTML from online">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <title>Learning-HTML</title>
     <link rel="icon" href="https://cdn.dribbble.com/users/160383/screenshots/5656135/scott_4x.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css">
@@ -20,7 +20,7 @@
     <hr>
 
     <h3 class="h3-id"><b><u>HTML bookmarks with ID and Link</u></b></h3>
-    <a href="#end">Go to ast page</a><br>
+    <a href="#end">Go to Last page</a><br>
     <a href="#c2">Go to Text/fonts</a><br>
     <a href="#c3">Go to Background image</a><br>
     <a href="#c4">Go to Table </a><br>
@@ -55,15 +55,12 @@
     <hr>
 
     <h3><p id="c3" style="text-align: center; ">BACKGROUND IMAGE</h3></p>
-    <p style="background-image: url(Image/10\ -\ iriH1tb.jpg); 
-      background-attachment: fixed; 
-      background-repeat: no-repeat; 
-      background-size: 100% 100%;">This is how background image work also this is the first time i start try to study HTML. i learn this from W3SCHOOL Website.</p><br>
+    <p class="p-background">This is how background image work also this is the first time i start try to study HTML. i learn this from W3SCHOOL Website.</p><br>
     <center>
       <img src="Image/6.html.png" alt="llllll " width="250" height="150" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img src="Image/10 - iriH1tb.jpg" alt="lol" width="250" height="150">
-  </center>
-  <div>Use (nbsp) for space </div>
+    </center>
+    <div>Use (nbsp) for space </div>
 
     <hr>
 
@@ -143,8 +140,66 @@
 
     <hr> 
     
-
+    <h3>HTML Forms</h3>
+    <!-- Form Can use Target -->
+    <!-- 
+      <fieldset> use to group relate data in form.
+      <legend> use to defines a caption for fieldset element.
+    -->
+    <form action="" target="_blank" method="post">
+      <fieldset style="width: fit-content;">
+        <legend style="text-align: center;">Contact Form</legend>
+      <label for="fname">First name:</label>
+      <input type="text" placeholder="First name"><br>
+      <label for="lname">Last name:</label>
+      <input type="text" placeholder="Last name"><br>
+      <label for="pw">Password</label>
+      <input type="password" placeholder="Password"><br>
+      <label for="email">Email:</label>
+      <input type="email" placeholder="Email"><br>
+      <label for="tel">Phone number:</label>
+      <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+      <label for="gender">Gender:</label>
+      <input type="radio">
+      <label for="">Male</label>
+      <input type="radio">
+      <label for="">Female</label><br>
+      <textarea name="text" id="text" cols="30" rows="10">delete me!</textarea><br>
+      <input type="submit" name="submit" id="submit">
+      <input type="button" name="button" id="button" value="Log in">
+      <button>sign in</button><br>
+      <input type="checkbox">
+      <label for="">I have agree in the conditional term.</label><br>
+    </fieldset>
+    </form>
+    <!-- HTML inputs types
+        <pre>
+      <input type="button">
+      <input type="checkbox">
+      <input type="color">
+      <input type="date">
+      <input type="datetime-local">
+      <input type="email">
+      <input type="file">
+      <input type="hidden">
+      <input type="image">
+      <input type="month">
+      <input type="number">
+      <input type="password">
+      <input type="radio">
+      <input type="range">
+      <input type="reset">
+      <input type="search">
+      <input type="submit">
+      <input type="tel">
+      <input type="text">
+      <input type="time">
+      <input type="url">
+      <input type="week">
+    </pre> -->
     
+
+  
     <p id="end"> <a href="#c1">Back to top</a></p>
   </body>
 </html>

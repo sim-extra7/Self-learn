@@ -8,8 +8,9 @@ body{
 mark{
   background-color: whitesmoke;
 }
-.h3-id{
+h3{
   text-align: center;
+  text-decoration: underline;
   
 }
 #c1{
@@ -20,4 +21,10 @@ mark{
 }
 .p-head{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p-background{
+  background-image: url(Image/10\ -\ iriH1tb.jpg); 
+  background-attachment: fixed; 
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
 }
