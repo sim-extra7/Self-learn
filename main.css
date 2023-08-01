@@ -1,0 +1,23 @@
+html{
+  font-size: 20px;
+}
+body{
+  background-color: black;
+  color: whitesmoke;
+}
+mark{
+  background-color: whitesmoke;
+}
+.h3-id{
+  text-align: center;
+  
+}
+#c1{
+  background-color: rgb(22, 51, 8);
+  width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+}
+.p-head{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
